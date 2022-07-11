@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- fonts start -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"rel="stylesheet">
+    <!-- normalize start -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+        integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- normalize end -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Header -->
+
+    <header class="header">
+        <div class="container header-container">
+            <a href="/" lang="en" class="logo-header link">
+                <span>Web</span>Studio
+            </a>
+            <nav>
+                <ul class="header-nav list">
+                    <li class="header-nav-item">
+                        <a href="./index.html" class="nav-list-item link ">Студия</a>
+                    </li>
+                    <li class="header-nav-item">
+                        <a href="./portfolio.html" class="nav-list-item link current">Портфолио</a>
+                    </li>
+                    <li class="header-nav-item">
+                        <a href="/" class="nav-list-item link">Контакты</a>
+                    </li>
+                </ul>
+            </nav>
+            <ul class="header-contact list">
+                <li class="header-contact-item">
+                    <a href="mailto:info@devstudio.com" class="contact link">
+                        <svg class="header-icon" width="16" height="16">
+                            <use href="./images/icons.svg#icon-mail"></use>
+                        </svg>info@devstudio.com </a>
+                </li>
+                <li class="header-contact-item">
+                    <a href="tel:+380961111111" class="contact link">
+                        <svg class="header-icon" width="16" height="16">
+                            <use href="./images/icons.svg#icon-tel"></use>
+                        </svg> +38 096 111 11 11</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+
+    <!-- Main -->
+
+    <main>
+        <section class="section">
+            <h1 class="visually-hidden">Портфолио</h1>
+                <div class="container">
+                    <ul class="filter-list list">
+                        <li class="filter-item">
+                            <button class="filter-btn current" type="button">Все</button>
+                        </li>
+                        <li class="filter-item">
+                            <button class="filter-btn" type="button">Веб-сайты</button>
+                        </li>
+                        <li class="filter-item">
+                            <button class="filter-btn" type="button">Приложения</button>
+                        </li>
+                        <li class="filter-item">
+                            <button class="filter-btn" type="button">Дизайн</button>
+                        </li>
+                        <li class="filter-item">
+                            <button class="filter-btn" type="button">Маркетинг</button>
+                        </li>
+                    </ul>
+            
+                    <ul class="portfolio-list card-set list">
+                        <li class=" card-set-item">
+                            <a class=" portfolio-iteam  link" rel="preconnect" href="/">
+                                <div class="images-group">
+                                    <img src="./images/img.technology.png" alt="Технокряк" width="370" height="294">
+                                    <p class="img-overlay">
+                                        Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю
+                                        получить
+                                        исчерпывающие сведения о компании или частном лице.
+                                    </p>
+                                </div>
+                                <div class="portfolio-wrapper">
+                                    <h2 class="name-prj link">Технокряк</h2>
+                                    <p class="category link">Веб-сайт</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class=" card-set-item">
+                            <a class=" portfolio-iteam link" rel="preconnect" href="/"><img src="./images/img.poster.png" alt=" Постер New Orlean vs Golden Star" width="370" height="294">
+                                <div class="portfolio-wrapper">
+                                    <h2 class="name-prj link">Постер New Orlean vs Golden Star</h2>
+                                    <p class="category link">Дизайн</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class=" card-set-item">
+                            <a class=" portfolio-iteam link" rel="preconnect" href="/"><img src="./images/img.seafood.png" alt="Ресторан Seafood" width="370" height="294">
+                                <div class="portfolio-wrapper">
+                                    <h2 class="name-prj link">Ресторан Seafood</h2>
+                                    <p class="category link">Приложение</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class=" card-set-item">
+                            <a class=" portfolio-iteam link" rel="preconnect" href="/"><img src="./images/img.project.prime.png" alt="Проект Prime" width="370" height="294">
+                                <div class="portfolio-wrapper">
+                                    <h2 class="name-prj link">Проект Prime</h2>
+                                    <p class="category link">Маркетинг</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class=" card-set-item">
+                            <a class=" portfolio-iteam link" rel="preconnect" href="/"><img src="./images/img.project.box.png" alt="Проект Boxes" width="370" height="294">
+                                <div class="portfolio-wrapper">
+                                    <h2 class="name-prj link">Проект Boxes</h2>
+                                    <p class="category link">Приложение</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class=" card-set-item">
+                            <a class=" portfolio-iteam link" rel="preconnect" href="/"><img src="./images/img.inspiration.png" alt="Inspiration has no Borders" width="370" height="294">
+                                <div class="portfolio-wrapper">
+                                    <h2 class="name-prj link">Inspiration has no Borders</h2>
+                                    <p class="category link">Веб-сайт</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class=" card-set-item">
+                            <a class=" portfolio-iteam link" rel="preconnect" href="/"><img src="./images/img.edition.png" alt="Издание Limited Edition" width="370" height="294">
+                                <div class="portfolio-wrapper">
+                                    <h2 class="name-prj link">Издание Limited Edition</h2>
+                                    <p class="category link">Дизайн</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class=" card-set-item">
+                            <a class=" portfolio-iteam link" rel="preconnect" href="/"><img src="./images/img.project.lab.png" alt="Проект LAB" width="370" height="294">
+                                <div class="portfolio-wrapper">
+                                    <h2 class="name-prj link">Проект LAB</h2>
+                                    <p class="category">Маркетинг</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class=" card-set-item">
+                            <a class=" portfolio-iteam link" rel="preconnect" href="/"><img src="./images/img.growing.business.png" alt="Growing Business" width="370" height="294">
+                                <div class="portfolio-wrapper">
+                                    <h2 class="name-prj link">Growing Business</h2>
+                                    <p class="category link">Приложение</p>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+         </section>
+    </main>
+
+    <!-- Footer -->
+
+    <footer class="page-footer footer">
+        <div class="container">
+            <ul class="footer-list list">
+                <li class="footer-iteam iteam">
+                    <a class="logo-footer link" href="/" lang="en"> <span>Web</span>Studio</a>
+            
+                    <address class="footer-address">
+                        <p class="footer-address-info">г. Киев, пр-т Леси Украинки, 26</p>
+                        <ul class="footer-contact-list list">
+                            <li class="footer-contact-iteam">
+                                <a class="footer-contact-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                            </li>
+                            <li class="footer-contact-iteam">
+                                <a class="footer-contact-link link" href="tel:+380961111111">+38 096 111 11 11</a>
+                            </li>
+                        </ul>
+                    </address>
+                </li>
+                <li class="footer-iteam footer-soc iteam">
+                    <h3 class="footer-soc-title">присоединяйтесь</h3>
+                    <ul class="footer-soc-list list">
+                        <li class="footer-soc-iteam">
+                            <a href="" class="footer-soc-link link">
+                                <svg class="footer-soc-icon" width="20" height="20">
+                                    <use href="./images/icons.svg#icon-instagram"></use>
+                                </svg> </a>-
+                        </li>
+                        <li class="footer-soc-iteam">
+                            <a href="" class="footer-soc-link link">
+                                <svg class="footer-soc-icon" width="20" height="20">
+                                    <use href="./images/icons.svg#icon-twitter"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="footer-soc-iteam">
+                            <a href="" class="footer-soc-link link">
+                                <svg class="footer-soc-icon" width="20" height="20">
+                                    <use href="./images/icons.svg#icon-facebook"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="footer-soc-iteam">
+                            <a href="" class="footer-soc-link link">
+                                <svg class="footer-soc-icon" width="20" height="20">
+                                    <use href="./images/icons.svg#icon-linkedin"></use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="footer-iteam footer-form iteam">
+                    <p class="footer-form-title">Подпишитесь на рассылку</p>
+                    <form>
+                        <div class="footer-form-wrap" role="group">
+                            <label for="email">
+                                <input type="email" placeholder="E-mail" class="input-footer" name="email" id="email" />
+                            </label>
+                            <button type="submit" class="footer-btn btn-clik">
+                                Подписаться
+                                <svg width="24" height="24" class="footer-send-icon">
+                                    <use href="./images/icons.svg#icon-footer-send"></use>
+                                </svg>
+                            </button>
+                        </div>
+                    </form>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    
+</body>
+</html>
