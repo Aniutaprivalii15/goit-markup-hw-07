@@ -1,0 +1,30 @@
+.card-set__text {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding-top: 27px;
+    padding-bottom: 27px;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.42;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #ffffff;
+
+    background-color: rgba(47, 48, 58, 0.8);
+}
+.card-set__iteam {
+    flex-basis: calc((100% - var(--indent) * var(--iteam)) / var(--iteam));
+    margin: calc(var(--indent) / 2);
+    height: 92px;
+}
+.card-set {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: calc(-1 * var(--indent) / 2);
+}

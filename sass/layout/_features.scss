@@ -1,0 +1,13 @@
+.features {
+    @extend %section;
+    
+    padding-top: 47px;
+}
+
+.features-list {
+    --iteam: 3;
+    --indent: 30px;
+}
+.features__iteam {
+    position: relative;
+}

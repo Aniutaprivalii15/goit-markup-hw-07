@@ -1,0 +1,40 @@
+.business-client__list {
+    --iteam: 6;
+    --indent: 30px;
+}
+
+.business-client__iteam {
+    fill: #afb1b8;
+}
+
+.business-client__link {
+    border: 1px solid #afb1b8;
+    border-radius: 4px;
+
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+
+    width: 100%;
+    height: 100%;
+    color: #afb1b8;
+
+    -webkit-transition: color var(--anim), border-color var(--anim);
+    transition: color var(--anim), border-color var(--anim);
+}
+
+.business-client__icon {
+    fill: currentColor;
+}
+
+.business-client__link:hover,
+.regular-client-link:focus {
+    color: var(--accent-color);
+    border: 1px solid var(--accent-color);
+}

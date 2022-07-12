@@ -1,0 +1,30 @@
+.filter__btn {
+    position: relative;
+    padding: 6px 22px;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+
+    background-color: var(--background-iteam-color);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+    -webkit-transition: background-color var(--anim), color var(--anim);
+    transition: background-color var(--anim), color var(--anim);
+}
+
+.filter__btn:hover,
+.filter__btn:focus {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
+        1px 4px 6px rgba(0, 0, 0, 0.16);
+    background-color: var(--accent-color);
+    color: var(--second-title-color);
+}
+
+.filter__btn.current {
+    background-color: var(--accent-color);
+    color: var(--second-title-color);
+}

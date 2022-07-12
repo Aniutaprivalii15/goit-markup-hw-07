@@ -1,0 +1,33 @@
+// utils
+@import "./utils/vars";
+@import "./utils/visually-hidden";
+@import "./utils/placeholder.scss";
+
+
+// base styles
+@import "./base/reset";
+@import "./base/base";
+@import "./base/container";
+
+
+
+// components styles
+@import "./components/logo";
+@import "./components/nav";
+@import "./components/btn-clik";
+@import "./components/filter-btn";
+@import "./components/container";
+@import "./components/main-text-title";
+@import "./components/modal";
+
+
+// layoults styles
+@import "./layout/header";
+@import "./layout/hero";
+@import "./layout/benefits";
+@import "./layout/business-client";
+@import "./layout/features";
+@import "./layout/filter";
+@import "./layout/footer";
+@import "./layout/portfolio";
+@import "./layout/team";
