@@ -780,7 +780,7 @@ color: var(--accent-color);
     color: var(--after-title-color);
 } */
 /* modal window */
-.backdrop.is-hidden{
+/* .backdrop.is-hidden{
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
@@ -796,7 +796,7 @@ color: var(--accent-color);
 
     -webkit-transition: opacity, visibility var(--anim);
     transition: opacity, visibility var(--anim);
-}
+} */
 /* .modal{
     position: absolute;
     top: 50%;
