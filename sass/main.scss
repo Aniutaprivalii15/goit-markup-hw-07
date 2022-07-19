@@ -1,7 +1,10 @@
 // utils
 @import "./utils/vars";
 @import "./utils/visually-hidden";
-@import "./utils/placeholder.scss";
+@import "./utils/placeholder";
+@import "./utils/mixins";
+@import "./utils/decimals";
+
 
 
 // base styles
@@ -17,17 +20,19 @@
 @import "./components/btn-clik";
 @import "./components/filter-btn";
 @import "./components/main-text-title";
-@import "./components/modal";
 @import "./components/card-set";
+@import "./components/modal";
+
 
 
 // layoults styles
 @import "./layout/header";
+@import "./layout/footer";
 @import "./layout/hero";
 @import "./layout/benefits";
-@import "./layout/business-client";
 @import "./layout/features";
-@import "./layout/filter";
-@import "./layout/footer";
-@import "./layout/portfolio";
 @import "./layout/team";
+@import "./layout/business-client";
+@import "./layout/filter";
+@import "./layout/portfolio";
+

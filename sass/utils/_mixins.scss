@@ -1,0 +1,21 @@
+@import "./decimals";
+@mixin section ($indent) {
+    padding-top: ($indent);
+    padding-bottom: ($indent);
+}
+
+@mixin fonts ($fw, $fs, $lh, $ls: 0.03em ) {
+    @if $fw {
+        font-weight: $fw;
+    }
+    @if $fs {
+        font-size: $fs;
+    }
+    @if $lh {
+        line-height: decimal-round($lh/$fs, 2);
+    }
+    @if $ls {
+        letter-spacing: $ls;
+    }
+}
+

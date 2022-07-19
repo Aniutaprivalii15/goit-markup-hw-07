@@ -14,7 +14,6 @@
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
 
-    -webkit-transition: transform 400ms ease-in-out 200ms, opacity 400ms ease-in-out 100ms;
     transition: transform 400ms ease-in-out 200ms, opacity 400ms ease-in-out 100ms;
 }
 
@@ -37,7 +36,6 @@
 
     background-color: rgba(0, 0, 0, 0.2);
 
-    -webkit-transition: opacity, visibility var(--anim);
     transition: opacity, visibility var(--anim);
 }
 
@@ -68,7 +66,6 @@
 .modal-close-btn:hover .modal-close-icon,
 .modal-close-btn:focus .modal-close-icon {
     fill: #2196f3;
-    -webkit-transition: fill var(--anim);
     transition: fill var(--anim);
 
 }
@@ -205,6 +202,5 @@
 
 .modal-form-check__link {
     color: var(--accent-color);
-    -webkit-text-decoration: underline 1px;
     text-decoration: underline 1px;
 }
