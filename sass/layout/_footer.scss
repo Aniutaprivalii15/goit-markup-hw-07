@@ -10,7 +10,7 @@
     align-items: baseline;
 }
 
-.footer__iteam:not(:last-child) {
+.footer__item:not(:last-child) {
     margin-right: 70px;
 }
 .footer-info__address {
@@ -22,7 +22,7 @@
     color: #fff;
 }
 
-.footer-contact__iteam:not(:last-child) {
+.footer-contact__item:not(:last-child) {
     margin-bottom: 9px;
 }
 
@@ -58,12 +58,12 @@
     justify-content: center;
 }
 
-.footer-soc__iteam {
+.footer-soc__item {
     width: 44px;
     height: 44px;
 }
 
-.footer-soc__iteam:not(:last-child) {
+.footer-soc__item:not(:last-child) {
     margin-right: 10px;
 }
 

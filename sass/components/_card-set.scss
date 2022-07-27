@@ -15,10 +15,9 @@
 
     background-color: rgba(47, 48, 58, 0.8);
 }
-.card-set__iteam {
-    flex-basis: calc((100% - var(--indent) * var(--iteam)) / var(--iteam));
+.card-set__item {
+    flex-basis: calc((100% - var(--indent) * var(--item)) / var(--item));
     margin: calc(var(--indent) / 2);
-    height: 92px;
 }
 .card-set {
     display: flex;
